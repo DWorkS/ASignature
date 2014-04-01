@@ -22,6 +22,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="dev.dworks.libs.asignature.demo.AboutActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="About"
+            android:parentActivityName="dev.dworks.libs.asignature.demo.MainActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="dev.dworks.apps.asignature.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
